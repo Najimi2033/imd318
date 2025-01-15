@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background-image: url(/images/register-bg.jpg);
+   background-size: cover;
+}
+
+.wrapper {
+    text-align: center;
+    width: 300px;
+    background-color: rgb(10, 156, 205);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.wrapper h2{
+font-size: 50px;
+
+}
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #218838;
+}
+
+.register-link {
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #00FFFF;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+    margin-top: auto;
+    }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00FFFF;
+    text-align: center;
+    padding: 10px;
+  }
