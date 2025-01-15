@@ -1,0 +1,124 @@
+body {
+    text-align: center;
+    background-image: url('/images/login-bg.jpg');
+    background-size: cover;
+
+}
+
+.box {
+    position: absolute;
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #F7f7f7;
+    border-color: transparent;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.8);
+    opacity: 0.9;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+
+.gmail, .password {
+    text-align: center;
+    font-size: 24px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: 0 0 5px rgba(0,0,0,0.1);
+    margin-top: auto;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-color: blue;
+}
+
+.custom-input {
+    background-color: #f0f0f0;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+button {
+    margin: 5px auto;
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(103, 194, 255);
+    color: black;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+button:hover {
+    animation:pulse 0.5 infinite;
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.forgot_password {
+    font-weight: 400;
+    color: #666;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #00FFFF;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+    margin-top: auto;
+    }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00FFFF;
+    text-align: center;
+    padding: 10px;
+  }
